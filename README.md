@@ -2,7 +2,7 @@
 1. Build a code
    1. ./gradlew clean build
 2. Run the jar
-   1. java -jar MobilityOperationTool.jar
+   1. java -jar InteractiveBatch.jar
 
 ## Operation Procedure
 

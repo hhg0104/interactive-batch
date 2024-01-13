@@ -15,7 +15,7 @@ java {
 }
 
 bootJar {
-    archiveFileName = "MobilityOperationTool.jar"
+    archiveFileName = "InteractiveBatch.jar"
 }
 
 repositories {
