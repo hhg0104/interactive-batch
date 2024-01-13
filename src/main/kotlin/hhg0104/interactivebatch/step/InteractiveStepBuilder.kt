@@ -66,11 +66,11 @@ class InteractiveStepBuilder {
     private fun getAdditionalSteps(): MutableList<InteractiveStep> {
 
         when (this.stepData.operationType) {
-            OperationType.CARSHARE_ORIX_DATA_UPDATE -> {
+            OperationType.DATA_UPDATE -> {
                 return mutableListOf(ExcelReadStep(), SQLGenerationStep())
             }
 
-            OperationType.CARSHARE_DELETE_USER_INFO -> {
+            OperationType.DELETE_USER_INFO -> {
                 return mutableListOf(DeleteSQLGenerationStep())
             }
             else -> {}

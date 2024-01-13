@@ -27,7 +27,7 @@
 2. Input DB info
    1. Input the DB info to fetch booking data
    2. ex.
-      1. Input DB server host ({host}:{port}/{db}): <i><b>localhost:3306/carsharedb</b></i>
+      1. Input DB server host ({host}:{port}/{db}): <i><b>localhost:3306/testdb</b></i>
       2. Input DB user: <i><b>root</b></i>
       3. Input DB password: <i><b>root</b></i>
 3. 1 SQL query file and 1 diff data markdown file will be created. The RTRV ticket name will be used for the name of the SQL query file.

@@ -14,7 +14,7 @@ import java.sql.Connection
 class DeleteSQLGenerationStep : InteractiveStep {
 
     companion object {
-        val licenseFileDir = "/www/carshare/license_images/"
+        val licenseFileDir = "/www/license_images/"
     }
 
     override fun proceed(textIO: TextIO, stepData: InteractiveStepData) {
