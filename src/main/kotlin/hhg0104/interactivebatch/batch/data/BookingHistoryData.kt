@@ -12,7 +12,7 @@ class BookingHistoryData : Serializable {
             "CAR_TYPE_ID" to "carTypeId",
             "DEPARTURE_TIME" to "departureTime",
             "RETURN_TIME" to "returnTime",
-            "RAKUTEN_TOTAL_AMOUNT" to "rakutenTotalAmount",
+            "TOTAL_AMOUNT" to "totalAmount",
             "PARTNER_TOTAL_AMOUNT" to "partnerTotalAmount",
             "USAGE_POINT" to "usagePoint",
             "EVENT" to "event",
@@ -27,7 +27,7 @@ class BookingHistoryData : Serializable {
 
     var carTypeId: String? = null
 
-    var rakutenTotalAmount: Int? = null
+    var totalAmount: Int? = null
 
     var partnerTotalAmount: Int? = null
 

@@ -6,8 +6,8 @@ class TravelOperationToolApplicationTests {
 
     @Test
     fun testSqlFormatter() {
-        val urlStr = "https://jira.rakuten-it.com/jira/browse/AF-25234"
-        val ticketName = urlStr.split("/").filter { it.startsWith("TAF-") }.firstOrNull()
+        val urlStr = "https://jira.com/jira/browse/ISSUE-25234"
+        val ticketName = urlStr.split("/").filter { it.startsWith("ISSUE-") }.firstOrNull()
         println(ticketName)
     }
 }

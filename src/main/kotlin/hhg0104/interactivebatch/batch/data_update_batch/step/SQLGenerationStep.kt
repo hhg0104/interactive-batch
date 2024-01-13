@@ -547,7 +547,7 @@ class SQLGenerationStep : InteractiveStep {
         val sql = """
             INSERT INTO 
                 t_reservation_history
-                (ID, NO, CAR_TYPE_ID, DEPARTURE_TIME, RETURN_TIME, RAKUTEN_TOTAL_AMOUNT, PARTNER_TOTAL_AMOUNT, 
+                (ID, NO, CAR_TYPE_ID, DEPARTURE_TIME, RETURN_TIME, TOTAL_AMOUNT, PARTNER_TOTAL_AMOUNT, 
                 ${
             if (excelBookingData.usagePoint != null) {
                 "USAGE_POINT,"
